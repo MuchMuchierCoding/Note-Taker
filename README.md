@@ -6,7 +6,9 @@ Note Taker is an application that allows the user to write and save notes. This 
 
 ## Website Preview 
 
-![Image of page on load and once the note taker application has been initialized](/public/assets/)
+![Image of page on load](./public/assets/Note-Taker-Main.png)
+
+![Image of note taking page](./public/assets/Note-Taker-Notes.png)
 
 ## Authors and Acknowledgement 
 

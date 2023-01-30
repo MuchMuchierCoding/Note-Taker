@@ -33,14 +33,11 @@ app.get('/api/notes', (req, res) => {
   res.json(notes);
 });
 
-
-
 app.post('/api/notes', (req, res) => {
   notes.push(req.body)
   fs.writeFileSync('./db/db.json', JSON.stringify(notes))
   res.json(notes);  
 });
-
 
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
